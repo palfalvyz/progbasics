@@ -34,22 +34,22 @@ nameAndAge("Zoli", 26)
 "Elégtelen" (50 alatt)*/
 function examScore(score){
     if(score<0){
-        console.log(`A vizsga pontszáma nem lehet kevesebb, mint 0.`)
+        console.log("A vizsga pontszáma nem lehet kevesebb, mint 0.")
     }
     else if(score>100){
-        console.log(`A vizsga pontszáma nem haladhatja meg a 100-at.`)
+        console.log("A vizsga pontszáma nem haladhatja meg a 100-at.")
     }
     else if(score>=90){
-        console.log(`Kiváló`)
+        console.log("Kiváló")
     }
     else if(score<=89 && score>=70){
-        console.log(`Jó`)
+        console.log("Jó")
     }
     else if(score<=69 && score>=50){
-        console.log(`Megfelelt`)
+        console.log("Megfelelt")
     }
     else{
-        console.log(`Elégtelen`)
+        console.log("Elégtelen")
     }
 }
 examScore(-3);
